@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{b9b38080-0b38-41fa-a849-ad58693f7b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{a26d13a5-507b-415c-bcc4-74985da97712}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cell_CUDA.cuh">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Render_CUDA.cuh">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Logic_CUDA.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Cell_CUDA.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Main_CUDA.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Render_CUDA.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Logic_CUDA.cuh">
+      <Filter>header</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
