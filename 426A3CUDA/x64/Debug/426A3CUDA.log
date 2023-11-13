@@ -4,6 +4,8 @@
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include\cuda.h(21757): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include\cuda.h(21757): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   Main_CUDA.cu
-  tmpxft_00005414_00000000-7_Main_CUDA.cudafe1.cpp
+  tmpxft_00013758_00000000-7_Main_CUDA.cudafe1.cpp
+    正在创建库 C:\Users\AgnesTachyon\source\repos\426A3CUDA\x64\Debug\426A3CUDA.lib 和对象 C:\Users\AgnesTachyon\source\repos\426A3CUDA\x64\Debug\426A3CUDA.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
   426A3CUDA.vcxproj -> C:\Users\AgnesTachyon\source\repos\426A3CUDA\x64\Debug\426A3CUDA.exe
 D:\vcpkg\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(228,5): warning : [vcpkg] Failed to gather app local DLL dependencies, program may not run. Set VcpkgApplocalDeps to false in your project file to suppress this warning. PowerShell arguments: -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\AgnesTachyon\source\repos\426A3CUDA\x64\Debug\426A3CUDA.exe" "D:\vcpkg\vcpkg\installed\x64-windows\debug\bin" "x64\Debug\426A3CUDA.tlog\426A3CUDA.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
